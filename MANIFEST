@@ -1,3 +1,6 @@
 MANIFEST
-Net.pm
+lib/The/Net.pm
+Makefile.PL
+Changes
 README
+t/000_basic.t
