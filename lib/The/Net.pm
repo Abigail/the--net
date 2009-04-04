@@ -1,20 +1,12 @@
 package The::Net;
 
-#
-#   $Id: Net.pm,v 1.1 2001/04/29 04:22:11 abigail Exp abigail $
-#
-#   $Log: Net.pm,v $
-#   Revision 1.1  2001/04/29 04:22:11  abigail
-#   Initial revision
-#
-#
+use 5.006;
 
-use warnings 'all';
 use strict;
+use warnings;
+no  warnings 'syntax';
 
-use vars qw /$VERSION/;
-
-($VERSION) =~ q $Revision: 1.1 $ =~ /([\d.]+)/;
+our $VERSION = '2009040401';
 
 push @INC => sub {
     require LWP::Simple;
@@ -54,20 +46,18 @@ The::Net  --  Use the Net to fetch your required modules.
 By using The::Net, you enable C<require> to fetch Modules using HTTP
 or FTP, when given a URL as argument.
 
-=head1 REVISION HISTORY
-
-    $Log: Net.pm,v $
-    Revision 1.1  2001/04/29 04:22:11  abigail
-    Initial revision
-
+=head1 DEVELOPMENT
+ 
+The current sources of this module are found on github,
+L<< git://github.com/Abigail/the--net.git >>.
 
 =head1 AUTHOR
-
-This package was written by Abigail, abigail@foad.org.
+    
+Abigail L<< mailto:cpan@abigail.be >>.
 
 =head1 COPYRIGHT and LICENSE
     
-This package is copyright 2001 by Abigail.
+Copyright (C) 2001, 2009 by Abigail.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
