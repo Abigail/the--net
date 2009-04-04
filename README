@@ -1,0 +1,16 @@
+INSTALLATION
+
+To install this module type the following:
+
+   - Copy Net.pm to .../site_perl/version/The/Net.pm
+   - run pod2man Net.pm and install it in your mandir.
+
+You might want to ask why the usual 'perl Makefile.PL' isn't going to
+work. That's because modern MakeMakers insist on an exact number of
+spaces and dashes in the NAME section of the POD documentation. A space
+or a dash too many AND AN IMPORTANT WARNING SHALL BE ISSUED.
+
+Fsckers.
+
+
+Abigail
