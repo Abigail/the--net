@@ -33,7 +33,7 @@ __END__
 
 =head1 NAME
 
-The::Net  --  Use the Net to fetch your required modules.
+The::Net - Use the Net to fetch your required modules.
 
 =head1 SYNOPSIS
 
